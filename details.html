@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>More About Ruthvik</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main-container fade-in">
+    <a href="index.html" class="nav-button go-home" aria-label="Go to Home page">
+      <i class='bx bx-home-alt'></i>
+    </a>
+    
+    <div class="details-content">
+      <img src="profil.2.jpeg" alt="Ruthvik Reddy">
+      <div class="details-text">
+        <h2>More About Me</h2>
+        <p><strong>Name:</strong> Ch. Ruthvik Reddy</p>
+        <p><strong>Education:</strong> B.Tech in Malla Reddy Engineering College</p>
+        <p><strong>Certifications:</strong></p>
+        <ul>
+          <li>👉 Microsoft Certified: Azure AI Fundamentals</li>
+          <li>👉 AICTE Innovation, Design and Entrepreneurship (IDE) Bootcamp</li>
+        </ul>
+
+        <h3>Skills:</h3>
+        <ul>
+          <li>🌐 HTML | CSS | JavaScript</li>
+          <li>🗄️ MySQL | 💻 C | ☕ Java | 🐍 Python</li>
+          <li>🔗 REST APIs | Git | GitHub</li>
+          <li>🗣️ Team Collaboration | Agile | Problem Solving</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="nav-button swipe-right" id="swipe-to-projects" aria-label="Go to Projects page">
+      <i class='bx bx-chevron-right'></i>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('swipe-to-projects').addEventListener('click', () => {
+      window.location.href = "project.html";
+    });
+  </script>
+
+</body>
+</html>
